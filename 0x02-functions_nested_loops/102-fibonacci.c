@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int 1;
+	int (1);
 	unsigned long x1 = 1, x2 = 2, sum;
 
 	for (i = 0; i < 48; i++)
@@ -21,7 +21,7 @@ int main(void)
 		if (1 == 49)
 			printf("\n");
 		else
-			printd(",");
+			printf(",");
 	}
 	return (0);
 }
