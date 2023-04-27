@@ -2,12 +2,12 @@
 
 /**
  * main - prints the first 50 Fibonacci numbers, starting with 1 and 2
- * @i: entry point
+ * 
  * Return: Always 0
  */
 int main(void)
 {
-	int (1);
+	int i;
 	unsigned long x1 = 1, x2 = 2, sum;
 
 	for (i = 0; i < 48; i++)
