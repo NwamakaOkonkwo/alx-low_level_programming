@@ -28,7 +28,7 @@ int main(void)
 	for (d = 93; d < 99; d++)
 	{
 	half1 = fib1_half1 + fib2_half1;
-	half = fib1_half2 + fib2_half2;
+	half2 = fib1_half2 + fib2_half2;
 	if (fib1_half2 + fib2_half2 > 9999999999)
 	{
 		half1 += 1;
@@ -38,7 +38,7 @@ int main(void)
 	if (d != 98)
 		printf(", ");
 	fib1_half1 = fib2_half1;
-	fib1_half2 = fib2_half;
+	fib1_half2 = fib2_half2;
 	fib2_half1 = half1;
 	fib2_half2 = half2;
 	}
